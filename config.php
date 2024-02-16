@@ -43,15 +43,15 @@ define('CONFIG_META_IMPORT', getenv('CONFIG_META_IMPORT'));
 define('CONFIG_TOP_MENU', true);
 define('CONFIG_CHECK_UPDATE', true);
 
-define('SMTP_HOST', getenv('SMTP_HOST'));
-define('SMTP_PORT', getenv('SMTP_PORT'));
-define('SMTP_USER', getenv('SMTP_USER'));
-define('SMTP_PASS', getenv('SMTP_PASS'));
-define('SMTP_SECURE', getenv('SMTP_SECURE'));
-define('SMTP_AUTH', getenv('SMTP_AUTH'));
-define('SMTP_SSL_VERIFY', getenv('SMTP_SSL_VERIFY'));
-define('EMAIL_FROM', getenv('EMAIL_FROM'));
-define('EMAIL_FROM_NAME', getenv('EMAIL_FROM_NAME'));
+#define('SMTP_HOST', getenv('SMTP_HOST'));
+#define('SMTP_PORT', getenv('SMTP_PORT'));
+#define('SMTP_USER', getenv('SMTP_USER'));
+#define('SMTP_PASS', getenv('SMTP_PASS'));
+#define('SMTP_SECURE', getenv('SMTP_SECURE'));
+#define('SMTP_AUTH', getenv('SMTP_AUTH'));
+#define('SMTP_SSL_VERIFY', getenv('SMTP_SSL_VERIFY'));
+#define('EMAIL_FROM', getenv('EMAIL_FROM'));
+#define('EMAIL_FROM_NAME', getenv('EMAIL_FROM_NAME'));
 
 if ($CONFIG_FILE_VIEWER_ADDRESS = getenv('CONFIG_FILE_VIEWER_ADDRESS')) {
     define('CONFIG_FILE_VIEWER_ADDRESS', $CONFIG_FILE_VIEWER_ADDRESS);
